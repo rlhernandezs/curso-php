@@ -14,4 +14,6 @@
 
     echo("Frete: R$ ".$frete->getPrazoEntrega());
 
+    echo("Hello World!!!");
+
 ?>
