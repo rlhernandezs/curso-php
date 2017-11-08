@@ -12,6 +12,6 @@
         $valor = 18
     );
 
-    echo("Frete: R$ ".$frete->getValor());
+    echo("Frete: R$ ".$frete->getPrazoEntrega());
 
 ?>
