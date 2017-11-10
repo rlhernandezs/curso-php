@@ -59,5 +59,56 @@
     
     echo $a%$b; // Resto
     echo "<br/>";
+    
+    echo $a**$b; // Potência
+    echo "<br/>";
+    
+    /////////////////////////////////////////
+    echo "<br/>";
+    /////////////////////////////////////////
+
+    $a = 100;
+    $b = 50;
+
+    var_dump($a>$b); // Maior
+    echo "<br/>";
+
+    var_dump($a<$b); // Menor
+    echo "<br/>";
+
+    var_dump($a=$b); // Atribuir
+    echo "<br/>";
+
+    var_dump($a==$b); // Valida igualdade entre os valores das variáveis
+    echo "<br/>";
+
+    var_dump($a===$b); // Valida igualdade entre os valores e tipos das variáveis
+    echo "<br/>";
+
+    var_dump($a!=$b); // Valida diferença entre os valores das variáveis
+    echo "<br/>";
+    
+    var_dump($a!==$b); // Valida igualdade entre os valores e tipos das variáveis
+    echo "<br/>";
+    
+    /////////////////////////////////////////
+    echo "<br/>";
+    /////////////////////////////////////////
+
+    $c = 50;
+    $d = 35;
+
+    var_dump($c<=>$d); // Space Ship 0 1 -1
+    echo "<br/>";
+    
+    /////////////////////////////////////////
+    echo "<br/>";
+    /////////////////////////////////////////
+
+    $e = NULL;
+    $f = 7;
+    $g = 10;
+
+    echo $e ?? $f ?? $g; // Null Coalescing 
 
 ?>
