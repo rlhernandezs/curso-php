@@ -1,21 +1,15 @@
 <?php
     
-    require_once("inc/frete.php");
+    $nascimento = new DateTime();
 
-    $frete = new Frete(
-        $cepDeOrigem = '14095050',
-        $cepDeDestino = '14390000',
-        $peso = 0.5,
-        $comprimento = 4,
-        $altura = 12,
-        $largura = 16,
-        $valor = 18
-    );
+    //var_dump($nascimento);
 
-    echo("Frete: R$ ".$frete->getValor());
+    $arquivo = fopen("index.php", "r");
 
-    echo("Prazo: ".$frete->getPrazoEntrega()." dias.");
+    //var_dump($arquivo);
 
-    echo("Hello World!!!");
+    $nulo = NULL;
+
+    //var_dump($nulo);
 
 ?>
