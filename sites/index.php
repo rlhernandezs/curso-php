@@ -12,9 +12,9 @@
         $valor = 18
     );
 
-    echo("Frete: R$ ".$frete->getValor());
+    echo("Frete: R$ ".$frete->getValor()."</br></br>");
 
-    echo("Prazo: ".$frete->getPrazoEntrega()." dias.");
+    echo("Prazo: ".$frete->getPrazoEntrega()." dias.</br></br>");
 
     echo("Hello World!!!");
 
