@@ -109,6 +109,57 @@
     $f = 7;
     $g = 10;
 
-    echo $e ?? $f ?? $g; // Null Coalescing 
+    echo $e ?? $f ?? $g; // Null Coalescing
+    echo "<br/>";
+    
+    /////////////////////////////////////////
+    echo "<br/>";
+    /////////////////////////////////////////
 
+    $incremento = 10;
+
+    echo $incremento++;
+
+    echo "<br/>";
+
+    echo $incremento;
+    
+    echo "<br/>";
+    
+    echo ++$incremento;
+    
+    /////////////////////////////////////////
+    echo "<br/>";
+    /////////////////////////////////////////
+
+    $decremento = 10;
+
+    echo --$decremento;
+    
+    /////////////////////////////////////////
+    echo "<br/>";
+    /////////////////////////////////////////
+
+    $resultdo = 10 + 3 / 2;
+
+    echo "Resultado= ".$resultdo;
+
+    echo "<br/>";
+
+    $resultdo = (10 + 3) / 2;
+    
+    echo "Resultado= ".$resultdo;
+
+    echo "<br/>";
+
+    $resultdo = (10 + 3) / 2 > 5 && 10 + 5 < 3; // AND &&
+
+    var_dump($resultdo);
+    
+    echo "<br/>";
+    
+    $resultdo = (10 + 3) / 2 > 5 || 10 + 5 < 3; // OR ||
+    
+    var_dump($resultdo);
+    
 ?>
